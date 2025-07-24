@@ -190,7 +190,7 @@ section {
 
 .portfolio-box {
   position: relative;
-  top: 50px;
+  top: 30px;
   bottom:-30px;
   width: 100%;
   max-width: 900px;
@@ -198,8 +198,8 @@ section {
   display: block;
   margin: 0 auto;
   z-index: 1;
-  margin-top:50rem;
-
+  margin-top:30rem;
+  /* 7/16 UPDATE: Adjusting the distance between the portfolio folder image and paper image, attempting to fix the overlap from the paper image */
 }
 
 
@@ -218,7 +218,7 @@ section {
   background-position: top;
   padding: 60px 40px 80px 40px;
   box-sizing: border-box;
-  z-index: 3;
+  z-index: -1;
   height:55rem;
   pointer-events: auto;
   
@@ -326,7 +326,7 @@ styles the buttons to look like buttons */
 
 .about-section{
   /* modifying the distance of paper and folder */
-  margin-top:-80rem;
+  margin-top:-60rem;
 }
 
 .about-content {
@@ -337,14 +337,15 @@ styles the buttons to look like buttons */
   width: 80%;
   color: #333;
   z-index:1;
-  margin-top: 40rem;
+  margin-top: 25rem;
 }
 
 .about-content h3{
   position:relative;
-  top:40px;
+  top:30px;
   left:8rem;
   font-size:2rem;
+  margin-bottom:10px;
 }
 
 .about-text h3{
